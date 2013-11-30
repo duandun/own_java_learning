@@ -9,7 +9,7 @@ public class AccessDBFactory {
 	public static IAccessDB create(int placeflag) {
 		IAccessDB accessdb = null;
 		switch(placeflag) {
-		case PLACE_BEIJING:
+		case PLACE_BEIJING: 
 			accessdb = new AccessDBOracle();
 			break;
 		case PLACE_SHANGHAI:
