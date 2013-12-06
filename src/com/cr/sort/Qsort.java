@@ -1,4 +1,4 @@
-package com.algorithm.qsort;
+package com.cr.sort;
 
 import java.io.BufferedReader;
 import java.io.IOException;
